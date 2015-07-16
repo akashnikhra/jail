@@ -1,0 +1,88 @@
+.logo{
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.main-nav.dark{
+	background-color: #beb685;
+}
+
+.main-nav.dark .inner-nav ul > li{
+	padding-top: 10px;
+}
+
+.small-height {
+  height: 60px !important;
+}
+
+.main-title{
+	color: white;
+	opacity: 1;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.tagline{
+	font-size: 50px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.services{
+	margin-top: -100px;
+	padding-bottom: 50px;
+}
+
+.marquee {
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.ver {
+  height: 300px;
+}
+
+.structure{
+	margin-top: -50px;
+	margin-bottom: -50px;
+}
+
+.structure-img{
+	border: 1px dashed black;
+}
+
+.icon{
+	color: #1abc9c;
+}
+.hr-line-under{
+	border-color: #1abc9c;
+}
+
+.chairman{
+	text-align: center;
+}
+
+@media only screen and (max-width: 450px){
+	.text-rotate{
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.head{
+		margin-top: 50px;
+	}
+	.service{
+		padding-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 990px){
+	.service{
+		padding-bottom: 70px;
+	}
+	.main-nav.dark .inner-nav ul > li{
+		padding-top: 0px;
+	}
+}
