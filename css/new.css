@@ -68,6 +68,9 @@
 	.text-rotate{
 		font-size: 25px;
 	}
+	.section-title{
+		margin-left: 10px;
+	}
 }
 
 @media only screen and (max-width: 700px){
